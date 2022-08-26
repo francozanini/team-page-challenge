@@ -1,0 +1,103 @@
+:root {
+    --font-pt-serif: 'PT Serif';
+    --font-poppins: 'Poppins';
+
+    --line-height-100: 1rem;
+    --line-height-150: 1.313rem;
+    --line-height-200: 1.68rem;
+    --line-height-300: 3rem;
+
+    --font-size-050: 0.625rem;
+    --font-size-100: 0.75rem;
+    --font-size-150: 0.875rem;
+    --font-size-200: 1.125rem;
+    --font-size-210: 1.8rem;
+    --font-size-300: 2.25rem;
+
+    --color-black-100: #000000;
+}
+
+.font-size-050 {
+    font-size: var(--font-size-050);
+}
+
+.font-size-100 {
+    font-size: var(--font-size-100);
+}
+
+.font-size-150 {
+    font-size: var(--font-size-150);
+}
+
+.font-size-200 {
+    font-size: var(--font-size-200);
+}
+
+.font-size-210 {
+    font-size: var(--font-size-210);
+}
+
+.font-size-300 {
+    font-size: var(--font-size-300);
+}
+
+.line-height-100 {
+    line-height: var(--line-height-100);
+}
+
+.line-height-150 {
+    line-height: var(--line-height-150);
+}
+
+.line-height-200 {
+    line-height: var(--line-height-200);
+}
+
+.line-height-300 {
+    line-height: var(--line-height-300);
+}
+
+.color-black-100 {
+    color: var(--color-black-100);
+}
+
+.font-poppins {
+    font-family: var(--font-poppins);
+}
+
+.font-pt-serif {
+    font-family: var(--font-pt-serif);
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 4vw;
+}
+
+.title {
+    margin: 3rem 0;
+}
+
+.subtitle {
+    margin-bottom: 0.75rem;
+}
+
+.description {
+    text-align: left;
+    vertical-align: top;
+}
